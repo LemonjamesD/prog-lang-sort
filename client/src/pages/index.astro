@@ -1,7 +1,9 @@
 ---
 import MainLayout from "../layouts/MainLayout.astro"
+import GetLangs from "../components/GetLangs.svelte"
 ---
 
 <MainLayout>
 <p> Hello, World! </p>
+<GetLangs client:load/>
 </MainLayout>
