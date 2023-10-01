@@ -1,0 +1,1350 @@
+Array:
+A+
+Ada
+Analytica
+APL
+Chapel
+Dartmouth BASIC
+Fortran
+FreeMat
+GAUSS 
+Interactive Data Language
+J
+Julia
+K
+Mathematica
+MATLAB
+Octave
+Q
+R
+S
+Scilab
+S-Lang
+SequenceL
+Speakeasy
+X10
+ZPL
+Clojure
+F#
+GOAL
+SARL
+Aspect
+AspectJ
+Groovy
+Nemerie
+Ada
+Authoring:
+Darwin Information Typing Architecture (DITA)
+Lasso
+PILOT
+TUTOR
+Authorwave
+Concatenative:
+Factor
+Forth
+jq
+joy
+PostScript
+Constraint:
+Claire
+Constraint Handling Rules
+CHIP
+ECLiPSe
+Kaleidoscope
+CommandLine:
+4DOS
+4OS2
+bash
+CLIST
+CMS EXEC
+csh
+tcsh
+DIGITAL Command Language
+DOS batch language
+EXEC 2
+Expect
+fish
+Hamilton C shell
+ksh
+PowerShell
+Rc
+Rexx
+sh
+TACL
+Windows batch language
+zsh
+Compiled:
+Ad
+ActionScript
+ALGOL 58
+ALGOL 60
+Ballerina
+BASIC
+BCPL
+C
+C++
+C#
+Ceylon
+CHILL
+Clipper 5.3
+CLEO
+Clojure
+COBOL
+Cobra
+Common Lisp
+Crystal
+Curl
+D
+DASL
+Delphi
+DIBOL
+Dylan
+eC
+Eiffel
+Elm
+Emacs Lisp
+Emerald
+Erlang
+Factor
+Fortran
+Genie
+Go
+Gosu
+Groovy
+Haskell
+Harbour
+HolyC
+Inform
+Inform
+Java
+JOVIAL
+Julia
+Kotlin
+LabVIEW
+Mercury
+Mesa
+Nemerie
+Nim
+Objective-C
+P
+Pascal
+PL/I
+Plus
+RPG
+Rust
+Scala
+Scheme
+SequenceL
+Simula
+Smalltalk
+Swift
+Standard ML
+Alice
+OCaml
+F#
+Turing
+Vala
+Visual Basic
+Visual FoxPro
+Visual Prolog
+Xojo
+Concurrent:
+Ada
+Alef
+Ateji PX
+Ballerina
+ChucK
+Cilk
+C Omega
+Clojure
+Chapel
+Co-array Fortran
+Curry
+E
+Eiffel
+Elixir
+Emerald
+Erlang
+Gambit Scheme
+Go
+Haskell
+Java
+Julia
+Joule
+LabVIEW
+Limbdo
+MultiLisp
+OCaml
+occam
+Orc
+Oz
+P
+Pict
+Python
+Rust
+Scala
+SequenceL
+SR
+Unified Parallel C
+XProc
+Curly:
+ABCL/c+
+Alef
+AWK
+B
+bc
+BCPL
+Ballerina
+C
+C++
+C#
+Ceylon
+ChucK
+Cilk
+Cyclone
+D
+Dart
+DASL
+E
+eC
+ActionScript
+JavaScript
+JScript
+TypeScript
+GLSL
+Go
+HLSL
+Java
+Limbo
+LPC
+MEL
+Nemerle
+Objective-C
+PCASTL
+Perl
+PHP
+Pico
+Pike
+PowerShell
+R
+Rust
+S-Lang
+Scala
+sed
+Solidity
+SuperCollider
+Swift
+UnrealScript
+Yorick
+YASS
+Dataflow:
+Analytica
+Ballerina
+BMDFM
+Hartmann pipelines
+G
+Lucid
+Max
+Oz
+Prograph
+Pure Data
+Reaktor
+StreamBase StreamSQL EventFlow
+Swift
+VEE
+VHDL
+VisSim
+Vvvv
+WebMethods Flow
+DataOriented:
+Clarion
+Clipper
+dBase a relational database access language
+Gremlin
+Mathematica (Wolfram language)
+MUMPS 
+Caché ObjectScript 
+RDQL
+SPARQL
+SQL
+Visual FoxPro
+WebDNA
+Decision:
+Filetab
+Declarative:
+Analytica
+Ant
+Curry
+Cypher
+Datalog
+Distributed Application Specification Language (DASL)
+ECL
+Gremlin
+Inform
+Lustre
+Mathematica (Wolfram language)
+Mercury
+MetaPost
+Modelica
+Prolog
+QML
+Oz
+RDQL
+SequenceL
+SPARQL
+SQL (Only DQL, not DDL, DCL, and DML)
+Soufflé
+xBase
+XSL Transformations
+Embeddable:
+PHP
+VBScript
+Tcl
+WebDNA
+ActionScript
+JavaScript (aka ECMAScript or JScript)
+VBScript (Windows only)
+AngelScript
+Ch
+EEL
+Io
+jq (C and Go)
+Julia
+Lua
+Python
+Ring
+Ruby (via mruby)
+Squirrel
+Tcl
+Educational:
+Alice
+Blockly
+Catrobat
+COMAL
+Elan
+Emerald
+Ezhil
+Logo
+Mathematica 
+Modula-2
+Pascal
+Racket
+Scheme
+Scratch
+Snap!
+Turing
+Esoteric:
+Beatnik
+Befunge
+Brainfuck
+Chef
+INTERCAL
+LOLCODE
+Malbolge
+Piet
+Shakespeare
+Thue
+Whitespace
+Extension:
+AutoLISP
+BeanShell
+CAL
+C/AL
+Guile
+Emacs Lisp
+JavaScript
+JScript
+Lua)
+OpenCL
+OptimJ
+Perl
+Pike
+PowerShell
+Python
+Rexx
+Ring
+Ruby
+S-Lang
+SQL
+Squirrel
+Tcl
+Vim script
+Visual Basic
+Fourth-gen:
+1C:Enterprise programming language
+ABAP
+CorVision
+CSC's GraphTalk
+CA-IDEAL
+Easytrieve
+FOCUS
+IBM Informix-4GL
+LINC 4GL
+MAPPER (Unisys/Sperry)
+MARK-IV (Sterling/Informatics)
+NATURAL
+Progress 4GL
+PV-Wave
+LiveCode
+SAS
+SQL
+Ubercode
+Uniface
+Visual DataFlex
+Visual FoxPro
+xBase
+Functional Pure:
+Agda
+Clean
+Coq (Gallina)
+Cuneiform
+Curry
+Elm
+Futhark
+Haskell
+Hope
+Idris
+Joy
+jq
+Lean
+Mercury
+Miranda
+PureScript
+Ur
+KRC
+SAC
+SASL
+SequenceL
+Functional Impure:
+APL
+ATS
+CAL
+C++
+C#
+VB.NET
+Ceylon
+Curl
+D
+Dart
+ActionScript
+JavaScript
+JScript
+Source
+Erlang
+Elixir
+LFE
+Fexl
+Flix
+G
+Groovy
+Hop
+J
+Java
+Julia
+Kotlin
+Lisp
+Clojure
+Common Lisp
+Dylan
+Emacs Lisp
+LFE
+Little b
+Logo
+Racket
+Scheme
+Guile
+Tea
+Mathematica
+ML
+Standard ML (SML)
+Alice
+OCaml
+F#
+Nemerle
+Nim
+Opal
+OPS5
+Perl
+PHP
+Python
+Pure
+Q
+R
+Raku
+REBOL
+Red
+Ring
+Ruby
+REFAL
+Rust
+Scala
+Swift
+Spreadsheets
+Tcl
+Hardware description:
+Verilog-AMS
+VHDL-AMS
+Advanced Boolean Expression Language
+Altera Hardware Description Language
+Bluespec
+Confluence
+ELLA
+Handel-C
+Impulse C
+Lava
+Lola
+MyHDL
+PALASM
+Ruby
+SystemC
+SystemVerilog
+Verilog
+VHDL
+Imperative:
+Ada
+ALGOL 58
+JOVIAL
+NELIAC
+ALGOL 60
+BASIC
+C
+C++
+C#
+Ceylon
+CHILL
+COBOL
+D
+Dart
+ActionScript
+JavaScript
+JScript
+Source
+FORTRAN
+GAUSS
+Go
+Groovy
+Icon
+Java
+Julia
+Lua
+Mathematica
+MATLAB
+Machine languages
+Modula-2, Modula-3
+MUMPS
+Nim
+OCaml
+Oberon
+Object Pascal
+Open Object Rexx (ooRexx)
+Open Programming Language (OPL)
+OpenEdge Advanced Business Language (ABL)
+Pascal
+Perl
+PHP
+PL/I
+PL/S
+PowerShell
+PROSE
+Python
+Rexx
+Ring
+Ruby
+Rust
+SETL
+Speakeasy
+Swift
+Tcl
+Interactive:
+APL
+BASIC
+Clojure
+Common Lisp
+Dart
+ActionScript
+JavaScript
+JScript
+Source
+Erlang
+Elixir
+F#
+Fril
+GAUSS
+Groovy
+Guile
+Haskell
+IDL
+J
+Java
+Julia
+Lua
+MUMPS 
+Maple
+Mathematica 
+MATLAB
+ML
+OCaml
+Perl
+PHP
+Pike
+PostScript
+PowerShell
+Prolog
+Python
+PROSE
+R
+REBOL
+Rexx
+Ring
+Ruby
+Scala
+Scheme
+Smalltalk 
+S-Lang 
+Speakeasy
+Swift
+Tcl 
+Unix shell
+Visual FoxPro
+Aldor
+Alphard
+C++
+C#
+CLU
+Cobra
+Eiffel
+Icon
+IPL-v
+jq
+Julia
+Lua
+Nim
+PHP
+Python
+Sather
+Interpreted:
+Ant
+APL
+AutoHotkey 
+AutoIt 
+BASIC 
+Programming Language for Business
+Eiffel
+Emacs Lisp
+FOCAL
+GameMaker Language
+Groovy
+J
+jq
+Julia
+JavaScript
+Lisp
+LPC
+Lua
+MUMPS
+Maple
+Mathematica
+MATLAB
+OCaml
+Pascal
+PCASTL
+Perl
+PHP
+PostScript
+PowerShell
+PROSE
+Python
+Rexx
+R
+REBOL
+Ring
+Ruby
+S-Lang
+Speakeasy
+Standard ML (SML)
+Spin
+Tcl
+Tea
+TorqueScript
+thinBasic
+VBScript
+Windows PowerShell
+GC:
+APL
+C#
+Clean
+Crystal
+Dart
+ActionScript
+JavaScript
+JScript
+Source
+Emerald
+Erlang
+Go
+Groovy
+Haskell
+Java
+Julia
+Kotlin
+LabVIEW
+Lisp
+Arc
+Clojure
+Common Lisp
+Dylan
+Emacs Lisp
+Guile
+Racket
+Scheme
+Logo
+Lua
+ML
+Standard ML (SML)
+Alice
+OCaml
+Modula-3
+Perl
+PHP
+PowerShell
+Python
+Ring
+Ruby
+Smalltalk
+Speakeasy
+Manual:
+Beef
+C
+C++
+Component Pascal
+Forth
+Fortran
+Modula-2
+Oberon
+Pascal
+PL/I
+Zig
+Partial:
+eC
+Optional:
+Ada
+Blitz
+COBOL
+Cython 
+D 
+Nim 
+Objective-C 
+Objective-C++ 
+PostScript 
+Rust 
+Scala 
+Swift
+Vala
+Deterministic:
+Ada
+C
+C++
+Fortran
+Pascal
+Rust
+Objective-C
+Zig
+RC:
+Objective-C
+Perl
+Swift
+Visual Basic
+Xojo
+LISPS:
+Lisp
+Arc
+Clojure
+Common Lisp
+Dylan
+Emacs Lisp
+Guile
+Racket
+Scheme
+Logo
+Joy
+R
+Source
+Tcl
+Tea
+TRAC
+Little:
+awk
+Comet
+sed
+SQL
+Logic:
+ALF
+Alma-0
+Curry
+Datalog
+Fril
+Flix
+Janus
+λProlog
+Oz
+Prolog
+Mercury
+Visual Prolog
+ROOP
+Soufflé
+Macro:
+cpp
+m4
+ML/I
+Metaprogramming:
+C++
+CWIC
+Curl
+D
+eC
+Emacs Lisp
+Elixir
+F#
+Groovy
+Haskell
+Julia
+Lisp
+Lua
+Maude system
+Mathematica
+META II
+MetaOCaml
+Nemerle
+Nim
+Perl
+Python
+Ring
+Ruby
+Rust[22]
+Scheme
+SequenceL
+Smalltalk
+Source
+TREEMETA
+Multiparadign:
+1 
+Ada 
+ALF 
+Alm 
+APL 
+BETA 
+C++ 
+C# 
+Ceylon 
+ChucK 
+Cobra 
+Common 
+Curl 
+Curry 
+D 
+Dart 
+Delphi 
+Dylan 
+eC 
+ECMAScript 
+ActionScripECMAScript 
+JavaScripJScripEiffel 
+F# 
+Fantom 
+G 
+Groovy 
+HarbouHoJ 
+Julia 
+LabVIEW 
+Lava 
+Lua 
+Mathematica 
+Mercury 
+Metaobject 
+Nemerle 
+Objectiv 
+OCaml 
+Oz 
+Object 
+Perl 
+PHP 
+Pike 
+Prograph 
+Python 
+R 
+Racket 
+REBOL 
+Red 
+ROOP 
+Ring 
+Ruby 
+Rust 
+Scala 
+Seed7 
+SISAL 
+Spreadsheets 
+Swift 
+Tcl 
+Tea 
+Windows 
+Numerical:
+AIMMS
+AMPL
+Analytica
+Fortran
+FreeMat
+GAUSS
+GAMS
+GNU Octave
+Julia
+Klerer-May System
+Mathematica
+MATLAB
+PROSE
+R
+Seneca
+Scilab
+Speakeasy
+Non-English:
+Chinese BASIC (Chinese)
+Fjölnir (Icelandic)
+Language Symbolique d'Enseignement (French)
+Rapira (Russian)
+ezhil (Tamil)
+OOP Class Multi:
+Common Lisp
+Cecil
+Dylan
+Julia
+OOP Class Single:
+ActionScript 3.0
+Actor
+Ada 95 and Ada 2005
+APL
+BETA
+C++
+C#
+Ceylon
+Dart
+Oxygene
+ChucK
+Cobra
+ColdFusion
+Curl
+D
+Distributed Application Specification Language (DASL)
+Delphi Object Pascal
+E
+GNU E
+eC
+Eiffel
+Sather
+Ubercode
+F-Script
+Fortran 2003
+Fortress
+Gambas
+Game Maker Language
+Harbour
+J
+Java
+Processing
+Groovy
+Join Java
+Tea
+X10
+LabVIEW
+Lava
+Lua
+Modula-2
+Modula-3
+Nemerle
+NetRexx
+Oberon-2
+Object Pascal
+Object REXX
+Objective-C
+OCaml
+OpenEdge Advanced Business Language (ABL)
+Oz, Mozart Programming System
+Perl 5
+PHP
+Pike
+Prograph
+Python 
+Revolution 
+Ring
+Ruby
+Scala
+Speakeasy
+Simula
+Smalltalk
+F-Script
+Little Smalltalk
+Pharo
+Squeak
+Scratch
+IBM VisualAge
+VisualWorks
+SPIN
+SuperCollider
+VBScript
+Visual DataFlex
+Visual FoxPro
+Visual Prolog
+X++
+Xojo
+XOTcl
+OO Prototype:
+1C:Enterprise programming language
+Actor-Based Concurrent Language (ABCL, ABCL/1, ABCL/R, ABCL/R2, ABCL/c+)
+Agora
+Cecil
+ActionScript
+JavaScript
+JScript
+Etoys in Squeak
+Io
+Lua
+MOO
+NewtonScript
+Obliq
+R
+REBOL
+Red
+Self 
+TADS
+Offside:
+ISWIM
+ABC
+Python
+Cobra
+Boo
+Genie
+Miranda
+Orwell
+Haskell
+Curry
+Elixir 
+F#
+Nemerle
+Nim
+Occam
+SPIN
+Scala 
+Procedural:
+Ada
+ALGOL 58
+JOVIAL
+NELIAC
+ALGOL 60 
+SMALL Machine ALGOL Like Language
+Alma-0
+BASIC 
+BCPL
+BLISS
+C
+C++
+C# 
+Ceylon
+CHILL
+ChucK 
+COBOL
+Cobra
+ColdFusion
+CPL (Combined Programming Language)
+Curl
+D
+Distributed Application Specification Language (DASL) 
+eC
+ActionScript
+JavaScript 
+JScript
+Source
+Eiffel
+Forth
+Fortran
+F
+GAUSS
+Go
+Harbour
+HyperTalk
+Java
+Groovy
+Join Java
+Tea
+JOVIAL
+Julia
+Language H
+Lasso
+Modula-2 
+Mathematica
+MATLAB
+Mesa
+MUMPS
+Nemerle
+Nim
+Oberon, Oberon-2
+Component Pascal
+Seneca
+OCaml
+Occam
+Oriel
+Pascal
+Free Pascal (FPC)
+Object Pascal, Delphi
+PCASTL
+Perl
+Pike
+PL/C
+PL/I
+Plus
+PowerShell
+PROSE
+Python
+R
+Rapira
+RPG
+Rust
+S-Lang
+VBScript
+Visual Basic
+Visual FoxPro
+Microsoft Dynamics AX (X++)
+Reflective:
+Befunge
+Ceylon
+Charm
+ChucK
+CLI
+C#
+Cobra
+Component Pascal BlackBox Component Builder
+Curl
+Cypher
+Delphi Object Pascal
+eC
+ECMAScript
+ActionScript
+ECMAScript for XML
+JavaScript
+JScript
+Emacs Lisp
+Eiffel
+Harbour
+Julia
+JVM
+Java
+Groovy
+Join Java
+X10
+Lisp
+Clojure
+Common Lisp
+Dylan
+Logo
+Scheme
+Lua
+Mathematica
+Maude system
+Oberon-2 – ETH Oberon System
+Objective-C
+PCASTL
+Perl
+PHP
+Pico
+Poplog
+POP-11
+PowerShell
+Prolog
+Python
+REBOL
+Red
+Ring
+Ruby
+Smalltalk
+F-Script
+Little Smalltalk
+Self
+Squeak
+IBM VisualAge
+VisualWorks
+Snobol
+Tcl
+XOTcl
+X++
+Xojo
+Rule-based:
+awk
+CLIPS
+Claire
+Constraint Handling Rules
+Drools
+GOAL agent programming language
+Jess
+Mathematica
+OPS5
+Prolog
+ToonTalk
+XSLT
+Scripting:
+AngelScript
+AppleScript
+AutoHotKey
+AutoIt
+AWK
+bc
+BeanShell
+Bash
+Ch
+CLI
+C#
+CLIST
+ColdFusion
+ECMAScript
+ActionScript
+ECMAScript for XML
+JavaScript 
+JScript
+Source
+Emacs Lisp
+CMS EXEC
+EXEC 2
+F-Script
+Game Maker Language (GML)
+GDScript
+Io
+JASS
+Julia
+JVM
+Groovy
+Join Java
+Ksh
+Lasso
+Lua
+MAXScript
+MEL
+Object REXX (OREXX, OOREXX)
+Oriel
+Pascal Script
+Perl
+PHP 
+PowerShell
+Python
+R
+REBOL
+Red
+Rexx
+Revolution
+Ring
+Ruby
+S-Lang
+sed
+Sh
+Smalltalk
+Squirrel
+Tea
+Tcl
+TorqueScript
+VBScript
+WebDNA
+Windows
+Stack:
+Beatnik
+Befunge
+Factor
+Forth
+Joy
+Piet
+Poplog
+PostScript
+RPL
+S-Lang
+Sync:
+Argus
+Averest
+Esterel
+Lustre
+Signal
+Céu 
+Shading Real:
+Adobe Graphics Assembly Language (AGAL)
+ARB assembly language (ARB assembly)
+OpenGL Shading Language (GLSL)
+High-Level Shading Language (HLSL) 
+PlayStation Shader Language (PSSL)
+Metal Shading Language (MSL)
+Cg
+Shading Offline:
+RenderMan Shading Language (RSL)
+Gelato Shading Language
+Open Shading Language (OSL)
+Syntax Handling:
+ANTLR
+Coco/R 
+GNU bison 
+GNU Flex
+lex 
+M4
+Parsing expression grammar (PEG)
+Prolog
+Emacs Lisp
+Lisp
+SableCC
+Scheme
+yacc
+JavaCC
+Transformation:
+ATL
+AWK
+MOFM2T
+QVT
+XSLT
+Visual:
+Analytica
+Blockly
+Clickteam Fusion
+DRAKON
+Fabrik
+Grasshopper
+Lava
+Max
+NXT-G
+Pict
+Prograph
+Pure Data
+Quartz Composer
+Scratch
+Snap!
+Simulink
+Spreadsheets
+Stateflow
+Subtext
+ToonTalk
+VEE
+VisSim
+Vvvv
+XOD
+Wirth:
+ALGOL W
+Euler
+Modula
+Modula-2, Modula-3, variants
+Obliq Modula 3 variant
+Oberon (Oberon, Oberon-07, Oberon-2)
+Component Pascal
+Oberon-2
+Pascal
+Delphi
+Free Pascial
+Oxygene
+XML:
+C Omega
+ECMAScript for XML
+MXML
+LZX
+XAML
+XPath
+XQuery
+XProc
+eXtensible Stylesheet Language Transformations (XSLT)
