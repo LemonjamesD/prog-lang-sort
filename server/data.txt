@@ -24,15 +24,19 @@ SequenceL
 Speakeasy
 X10
 ZPL
+Agent:
 Clojure
 F#
 GOAL
 SARL
-Aspect
+Aspect:
+Ada
 AspectJ
 Groovy
 Nemerie
 Ada
+Assembly:
+HLASM
 Authoring:
 Darwin Information Typing Architecture (DITA)
 Lasso
@@ -52,6 +56,7 @@ CHIP
 ECLiPSe
 Kaleidoscope
 CommandLine:
+JCL
 4DOS
 4OS2
 bash
@@ -501,6 +506,7 @@ SystemVerilog
 Verilog
 VHDL
 Imperative:
+JCL
 Ada
 ALGOL 58
 JOVIAL
@@ -1033,6 +1039,7 @@ Occam
 SPIN
 Scala 
 Procedural:
+JCL
 Ada
 ALGOL 58
 JOVIAL
@@ -1188,6 +1195,7 @@ Prolog
 ToonTalk
 XSLT
 Scripting:
+JCL
 AngelScript
 AppleScript
 AutoHotKey

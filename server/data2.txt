@@ -1,0 +1,616 @@
+bc|bc|:|Curly-bracket, Scripting
+glsl|GLSL|:|Curly-bracket
+extensible stylesheet language transformations (xslt)|eXtensible Stylesheet Language Transformations (XSLT)|:|XML-based
+newtonscript|NewtonScript|:|Object-oriented prototype-based
+reaktor|Reaktor|:|Dataflow
+m4|m4|:|Macro
+g |G |:|Multiparadigm
+oberon-2 – eth oberon system|Oberon-2 – ETH Oberon System|:|Reflective
+cg|Cg|:|Shading Real-time
+a+|A+|:|Array
+klerer-may system|Klerer-May System|:|Numerical
+haskell|Haskell|:|Compiled, Concurrent, Pure Functional, Interactive, Garbage Collected, Metaprogramming, Off-side rule
+dart|Dart|:|Curly-bracket, Impure Functional, Imperative, Interactive, Garbage Collected, Object-oriented class-based single dispatch
+dartmouth basic|Dartmouth BASIC|:|Array
+datalog|Datalog|:|Declarative, Logic-based
+joy|joy|:|Concatenative
+high-level shading language (hlsl) |High-Level Shading Language (HLSL) |:|Shading Real-time
+cobra|Cobra|:|Compiled, Interactive, Object-oriented class-based single dispatch, Off-side rule, Procedural, Reflective
+gdscript|GDScript|:|Scripting
+lzx|LZX|:|XML-based
+focal|FOCAL|:|Interpreted
+unix shell|Unix shell|:|Interactive
+poplog|Poplog|:|Reflective, Stack-based
+ca-ideal|CA-IDEAL|:|Fourth-generation
+mark-iv (sterling/informatics)|MARK-IV (Sterling/Informatics)|:|Fourth-generation
+oberon, oberon-2|Oberon, Oberon-2|:|Procedural
+vb.net|VB.NET|:|Impure Functional
+zpl|ZPL|:|Array
+beanshell|BeanShell|:|Extension, Scripting
+agda|Agda|:|Pure Functional
+programming language for business|Programming Language for Business|:|Interpreted
+abap|ABAP|:|Fourth-generation
+pilot|PILOT|:|Authoring
+simula|Simula|:|Compiled, Object-oriented class-based single dispatch
+lisp|Lisp|:|Impure Functional, Interpreted, Garbage Collected, List-based (LISPs), Metaprogramming, Reflective, Syntax-handling
+advanced boolean expression language|Advanced Boolean Expression Language|:|Hardware description languages
+bluespec|Bluespec|:|Hardware description languages
+apl |APL |:|Multiparadigm
+oz |Oz |:|Multiparadigm
+gams|GAMS|:|Numerical
+javascript |JavaScript |:|Procedural, Scripting
+nxt-g|NXT-G|:|Visual
+eclipse|ECLiPSe|:|Constraint
+seed7 |Seed7 |:|Multiparadigm
+xotcl|XOTcl|:|Object-oriented class-based single dispatch, Reflective
+lua|Lua|:|Embeddable, Imperative, Interactive, Interactive, Interpreted, Garbage Collected, Metaprogramming, Object-oriented class-based single dispatch, Object-oriented prototype-based, Reflective, Scripting
+windows|Windows|:|Scripting
+idris|Idris|:|Pure Functional
+postscript |PostScript |:|Optional Manual Memory Management
+mumps |MUMPS |:|Data-orientened, Interactive
+mel|MEL|:|Curly-bracket, Scripting
+tacl|TACL|:|Command-line interface
+guile|Guile|:|Extension, Impure Functional, Interactive, Garbage Collected, List-based (LISPs)
+gambas|Gambas|:|Object-oriented class-based single dispatch
+processing|Processing|:|Object-oriented class-based single dispatch
+cobol|COBOL|:|Compiled, Imperative, Optional Manual Memory Management, Procedural
+treemeta|TREEMETA|:|Metaprogramming
+x++|X++|:|Object-oriented class-based single dispatch, Reflective
+fortran|Fortran|:|Array, Compiled, Manual Memory Management, Deterministic Memory Management, Numerical, Procedural
+mathematica (wolfram language)|Mathematica (Wolfram language)|:|Data-orientened, Declarative
+windows batch language|Windows batch language|:|Command-line interface
+easytrieve|Easytrieve|:|Fourth-generation
+autoit |AutoIt |:|Interpreted
+actor|Actor|:|Object-oriented class-based single dispatch
+brainfuck|Brainfuck|:|Esoteric
+parsing expression grammar (peg)|Parsing expression grammar (PEG)|:|Syntax-handling
+gauss|GAUSS|:|Imperative, Interactive, Numerical, Procedural
+fantom |Fantom |:|Multiparadigm
+hamilton c shell|Hamilton C shell|:|Command-line interface
+component pascal blackbox component builder|Component Pascal BlackBox Component Builder|:|Reflective
+chapel|Chapel|:|Array, Concurrent
+gnu e|GNU E|:|Object-oriented class-based single dispatch
+clipper|Clipper|:|Data-orientened
+fortran|FORTRAN|:|Imperative
+gelato shading language|Gelato Shading Language|:|Shading Offline
+blockly|Blockly|:|Educational, Visual
+sas|SAS|:|Fourth-generation
+cilk|Cilk|:|Concurrent, Curly-bracket
+digital command language|DIGITAL Command Language|:|Command-line interface
+clips|CLIPS|:|Rule-based
+vee|VEE|:|Dataflow, Visual
+revolution |Revolution |:|Object-oriented class-based single dispatch
+quartz composer|Quartz Composer|:|Visual
+nim|Nim|:|Compiled, Impure Functional, Imperative, Interactive, Metaprogramming, Off-side rule, Procedural
+ezhil|Ezhil|:|Educational
+mathematica|Mathematica|:|Array, Impure Functional, Imperative, Interpreted, Metaprogramming, Numerical, Procedural, Reflective, Rule-based
+aspectj|AspectJ|:|Aspect-oriented
+coq (gallina)|Coq (Gallina)|:|Pure Functional
+clarion|Clarion|:|Data-orientened
+boo|Boo|:|Off-side rule
+visual foxpro|Visual FoxPro|:|Compiled, Data-orientened, Fourth-generation, Interactive, Object-oriented class-based single dispatch, Procedural
+nemerie|Nemerie|:|Aspect-oriented, Compiled
+emacs lisp|Emacs Lisp|:|Compiled, Extension, Impure Functional, Interpreted, Garbage Collected, List-based (LISPs), Metaprogramming, Reflective, Scripting, Syntax-handling
+scala |Scala |:|Optional Manual Memory Management, Multiparadigm, Off-side rule
+lava|Lava|:|Hardware description languages, Object-oriented class-based single dispatch, Visual
+standard ml (sml)|Standard ML (SML)|:|Impure Functional, Interpreted, Garbage Collected
+ml/i|ML/I|:|Macro
+verilog-ams|Verilog-AMS|:|Hardware description languages
+rc|Rc|:|Command-line interface
+turing|Turing|:|Compiled, Educational
+d |D |:|Optional Manual Memory Management, Multiparadigm
+metaocaml|MetaOCaml|:|Metaprogramming
+exec 2|EXEC 2|:|Command-line interface, Scripting
+fjölnir (icelandic)|Fjölnir (Icelandic)|:|Non-English-based
+self|Self|:|Reflective
+sr|SR|:|Concurrent
+nim |Nim |:|Optional Manual Memory Management
+snobol|Snobol|:|Reflective
+clickteam fusion|Clickteam Fusion|:|Visual
+filetab|Filetab|:|Decision table
+pl/c|PL/C|:|Procedural
+thue|Thue|:|Esoteric
+oz|Oz|:|Concurrent, Dataflow, Declarative, Logic-based
+object |Object |:|Multiparadigm
+céu |Céu |:|Synchronous
+lean|Lean|:|Pure Functional
+csc's graphtalk|CSC's GraphTalk|:|Fourth-generation
+nemerle |Nemerle |:|Multiparadigm
+chip|CHIP|:|Constraint
+gnu bison |GNU bison |:|Syntax-handling
+rdql|RDQL|:|Data-orientened, Declarative
+sparql|SPARQL|:|Data-orientened, Declarative
+php |PHP |:|Multiparadigm, Scripting
+miranda|Miranda|:|Pure Functional, Off-side rule
+hop|Hop|:|Impure Functional
+co-array fortran|Co-array Fortran|:|Concurrent
+r|R|:|Array, Curly-bracket, Impure Functional, Interactive, Interpreted, List-based (LISPs), Numerical, Object-oriented prototype-based, Procedural, Scripting
+labview |LabVIEW |:|Multiparadigm
+scratch|Scratch|:|Educational, Object-oriented class-based single dispatch, Visual
+beatnik|Beatnik|:|Esoteric, Stack-based
+befunge|Befunge|:|Esoteric, Reflective, Stack-based
+clean|Clean|:|Pure Functional, Garbage Collected
+lex |lex |:|Syntax-handling
+rust|Rust|:|Compiled, Concurrent, Curly-bracket, Impure Functional, Imperative, Deterministic Memory Management, Procedural
+hlsl|HLSL|:|Curly-bracket
+refal|REFAL|:|Impure Functional
+oberon (oberon, oberon-07, oberon-2)|Oberon (Oberon, Oberon-07, Oberon-2)|:|Wirth
+corvision|CorVision|:|Fourth-generation
+fortress|Fortress|:|Object-oriented class-based single dispatch
+machine languages|Machine languages|:|Imperative
+rust |Rust |:|Optional Manual Memory Management, Multiparadigm
+delphi object pascal|Delphi Object Pascal|:|Object-oriented class-based single dispatch, Reflective
+windows powershell|Windows PowerShell|:|Interpreted
+moo|MOO|:|Object-oriented prototype-based
+ibm informix-4gl|IBM Informix-4GL|:|Fourth-generation
+cwic|CWIC|:|Metaprogramming
+xojo|Xojo|:|Compiled, Automatic Reference Counting, Object-oriented class-based single dispatch, Reflective
+mxml|MXML|:|XML-based
+fish|fish|:|Command-line interface
+systemverilog|SystemVerilog|:|Hardware description languages
+pure data|Pure Data|:|Dataflow, Visual
+icon|Icon|:|Imperative, Interactive
+handel-c|Handel-C|:|Hardware description languages
+vbscript (windows only)|VBScript (Windows only)|:|Embeddable
+logo|Logo|:|Educational, Impure Functional, Garbage Collected, List-based (LISPs), Reflective
+tea |Tea |:|Multiparadigm
+harbouhoj |HarbouHoJ |:|Multiparadigm
+oberon-2|Oberon-2|:|Object-oriented class-based single dispatch, Wirth
+matlab|MATLAB|:|Array, Imperative, Interactive, Interpreted, Numerical, Procedural
+antlr|ANTLR|:|Syntax-handling
+hypertalk|HyperTalk|:|Procedural
+comal|COMAL|:|Educational
+progress 4gl|Progress 4GL|:|Fourth-generation
+windows |Windows |:|Multiparadigm
+qvt|QVT|:|Transformation
+analytica|Analytica|:|Array, Dataflow, Declarative, Numerical, Visual
+objective-c |Objective-C |:|Optional Manual Memory Management
+erlang|Erlang|:|Compiled, Concurrent, Impure Functional, Interactive, Garbage Collected
+vissim|VisSim|:|Dataflow, Visual
+distributed application specification language (dasl) |Distributed Application Specification Language (DASL) |:|Procedural
+whitespace|Whitespace|:|Esoteric
+orc|Orc|:|Concurrent
+gnu flex|GNU Flex|:|Syntax-handling
+xquery|XQuery|:|XML-based
+flix|Flix|:|Impure Functional, Logic-based
+s-lang|S-Lang|:|Array, Curly-bracket, Extension, Interpreted, Procedural, Scripting, Stack-based
+gosu|Gosu|:|Compiled
+limbdo|Limbdo|:|Concurrent
+cal|CAL|:|Extension, Impure Functional
+javascript|JavaScript|:|Curly-bracket, Extension, Impure Functional, Imperative, Interactive, Interpreted, Garbage Collected, Object-oriented prototype-based, Reflective
+rpl|RPL|:|Stack-based
+fabrik|Fabrik|:|Visual
+orwell|Orwell|:|Off-side rule
+actor-based concurrent language (abcl, abcl/1, abcl/r, abcl/r2, abcl/c+)|Actor-Based Concurrent Language (ABCL, ABCL/1, ABCL/R, ABCL/R2, ABCL/c+)|:|Object-oriented prototype-based
+catrobat|Catrobat|:|Educational
+hope|Hope|:|Pure Functional
+goal agent programming language|GOAL agent programming language|:|Rule-based
+gauss |GAUSS |:|Array
+free pascial|Free Pascial|:|Wirth
+forth|Forth|:|Concatenative, Manual Memory Management, Procedural, Stack-based
+tutor|TUTOR|:|Authoring
+cypher|Cypher|:|Declarative, Reflective
+simulink|Simulink|:|Visual
+c/al|C/AL|:|Extension
+multilisp|MultiLisp|:|Concurrent
+unified parallel c|Unified Parallel C|:|Concurrent
+uniface|Uniface|:|Fourth-generation
+sac|SAC|:|Pure Functional
+aimms|AIMMS|:|Numerical
+ec |eC |:|Multiparadigm
+perl |Perl |:|Multiparadigm
+csh|csh|:|Command-line interface
+raku|Raku|:|Impure Functional
+metaobject |Metaobject |:|Multiparadigm
+sarl|SARL|:|Agent-oriented
+vvvv|Vvvv|:|Dataflow, Visual
+1c:enterprise programming language|1C:Enterprise programming language|:|Fourth-generation, Object-oriented prototype-based
+4dos|4DOS|:|Command-line interface
+goal|GOAL|:|Agent-oriented
+intercal|INTERCAL|:|Esoteric
+basic|BASIC|:|Compiled, Imperative, Interactive
+ad|Ad|:|Compiled
+metapost|MetaPost|:|Declarative
+hlasm|HLASM|:|Assembly
+authorwave|Authorwave|:|Authoring
+focus|FOCUS|:|Fourth-generation
+arc|Arc|:|Garbage Collected, List-based (LISPs)
+beef|Beef|:|Manual Memory Management
+applescript|AppleScript|:|Scripting
+open shading language (osl)|Open Shading Language (OSL)|:|Shading Offline
+vala|Vala|:|Compiled, Optional Manual Memory Management
+mercury |Mercury |:|Multiparadigm
+autolisp|AutoLISP|:|Extension
+f# |F# |:|Multiparadigm
+j|J|:|Array, Impure Functional, Interactive, Interpreted, Object-oriented class-based single dispatch
+c|C|:|Compiled, Curly-bracket, Imperative, Manual Memory Management, Deterministic Memory Management, Procedural
+ocaml|OCaml|:|Compiled, Concurrent, Impure Functional, Imperative, Interactive, Interpreted, Garbage Collected, Object-oriented class-based single dispatch, Procedural
+joy|Joy|:|Pure Functional, List-based (LISPs), Stack-based
+pike |Pike |:|Multiparadigm
+argus|Argus|:|Synchronous
+plus|Plus|:|Compiled, Procedural
+game maker language|Game Maker Language|:|Object-oriented class-based single dispatch
+myhdl|MyHDL|:|Hardware description languages
+angelscript|AngelScript|:|Embeddable, Scripting
+fril|Fril|:|Interactive, Logic-based
+ecmascript |ECMAScript |:|Multiparadigm
+rust[22]|Rust[22]|:|Metaprogramming
+xod|XOD|:|Visual
+spreadsheets|Spreadsheets|:|Impure Functional, Visual
+idl|IDL|:|Interactive
+cecil|Cecil|:|Object-oriented class-based multiple dispatch, Object-oriented prototype-based
+javacc|JavaCC|:|Syntax-handling
+elan|Elan|:|Educational
+ballerina|Ballerina|:|Compiled, Concurrent, Curly-bracket, Dataflow
+r |R |:|Multiparadigm
+rexx|Rexx|:|Command-line interface, Extension, Imperative, Interactive, Interpreted, Scripting
+basic |BASIC |:|Interpreted, Procedural
+maude system|Maude system|:|Metaprogramming, Reflective
+4os2|4OS2|:|Command-line interface
+abcl/c+|ABCL/c+|:|Curly-bracket
+maxscript|MAXScript|:|Scripting
+sql|SQL|:|Data-orientened, Extension, Fourth-generation, Little
+dart |Dart |:|Multiparadigm
+julia|Julia|:|Array, Compiled, Concurrent, Embeddable, Impure Functional, Imperative, Interactive, Interactive, Interpreted, Garbage Collected, Metaprogramming, Numerical, Object-oriented class-based multiple dispatch, Procedural, Reflective, Scripting
+nemerle|Nemerle|:|Curly-bracket, Impure Functional, Metaprogramming, Object-oriented class-based single dispatch, Off-side rule, Procedural
+comet|Comet|:|Little
+s|S|:|Array
+occam|occam|:|Concurrent
+objective-c++ |Objective-C++ |:|Optional Manual Memory Management
+awk|awk|:|Little, Rule-based
+confluence|Confluence|:|Hardware description languages
+tcsh|tcsh|:|Command-line interface
+arb assembly language (arb assembly)|ARB assembly language (ARB assembly)|:|Shading Real-time
+curry|Curry|:|Concurrent, Declarative, Pure Functional, Logic-based, Off-side rule
+freemat|FreeMat|:|Array, Numerical
+groovy |Groovy |:|Multiparadigm
+drools|Drools|:|Rule-based
+jscript|JScript|:|Curly-bracket, Extension, Impure Functional, Imperative, Interactive, Garbage Collected, Object-oriented prototype-based, Procedural, Reflective, Scripting
+pict|Pict|:|Concurrent, Visual
+p|P|:|Compiled, Concurrent
+shakespeare|Shakespeare|:|Esoteric
+aldor|Aldor|:|Interactive
+blitz|Blitz|:|Optional Manual Memory Management
+opal|Opal|:|Impure Functional
+clojure|Clojure|:|Agent-oriented, Compiled, Concurrent, Impure Functional, Interactive, Garbage Collected, List-based (LISPs), Reflective
+prograph |Prograph |:|Multiparadigm
+language symbolique d'enseignement (french)|Language Symbolique d'Enseignement (French)|:|Non-English-based
+thinbasic|thinBasic|:|Interpreted
+coldfusion|ColdFusion|:|Object-oriented class-based single dispatch, Procedural, Scripting
+modula|Modula|:|Wirth
+ceylon|Ceylon|:|Compiled, Curly-bracket, Impure Functional, Imperative, Object-oriented class-based single dispatch, Procedural, Reflective
+verilog|Verilog|:|Hardware description languages
+jess|Jess|:|Rule-based
+prose|PROSE|:|Imperative, Interactive, Interpreted, Numerical, Procedural
+dasl|DASL|:|Compiled, Curly-bracket
+open object rexx (oorexx)|Open Object Rexx (ooRexx)|:|Imperative
+spin|Spin|:|Interpreted
+toontalk|ToonTalk|:|Rule-based, Visual
+palasm|PALASM|:|Hardware description languages
+kaleidoscope|Kaleidoscope|:|Constraint
+ats|ATS|:|Impure Functional
+esterel|Esterel|:|Synchronous
+sasl|SASL|:|Pure Functional
+ada 95 and ada 2005|Ada 95 and Ada 2005|:|Object-oriented class-based single dispatch
+purescript|PureScript|:|Pure Functional
+ops5|OPS5|:|Impure Functional, Rule-based
+cuneiform|Cuneiform|:|Pure Functional
+lustre|Lustre|:|Declarative, Synchronous
+janus|Janus|:|Logic-based
+ruby |Ruby |:|Multiparadigm
+bliss|BLISS|:|Procedural
+neliac|NELIAC|:|Imperative, Procedural
+red|Red|:|Impure Functional, Object-oriented prototype-based, Reflective, Scripting
+e|E|:|Concurrent, Curly-bracket, Object-oriented class-based single dispatch
+openedge advanced business language (abl)|OpenEdge Advanced Business Language (ABL)|:|Imperative, Object-oriented class-based single dispatch
+dibol|DIBOL|:|Compiled
+oxygene|Oxygene|:|Object-oriented class-based single dispatch, Wirth
+subtext|Subtext|:|Visual
+oz, mozart programming system|Oz, Mozart Programming System|:|Object-oriented class-based single dispatch
+streambase streamsql eventflow|StreamBase StreamSQL EventFlow|:|Dataflow
+spin|SPIN|:|Object-oriented class-based single dispatch, Off-side rule
+kotlin|Kotlin|:|Compiled, Impure Functional, Garbage Collected
+sequencel|SequenceL|:|Array, Compiled, Concurrent, Declarative, Pure Functional, Metaprogramming
+setl|SETL|:|Imperative
+averest|Averest|:|Synchronous
+ocaml |OCaml |:|Multiparadigm
+pop-11|POP-11|:|Reflective
+modula-2|Modula-2|:|Educational, Manual Memory Management, Object-oriented class-based single dispatch
+autohotkey |AutoHotkey |:|Interpreted
+perl 5|Perl 5|:|Object-oriented class-based single dispatch
+signal|Signal|:|Synchronous
+m4|M4|:|Syntax-handling
+yacc|yacc|:|Syntax-handling
+c# |C# |:|Multiparadigm, Procedural
+q|Q|:|Array, Impure Functional
+alma-0|Alma-0|:|Logic-based, Procedural
+euler|Euler|:|Wirth
+linc 4gl|LINC 4GL|:|Fourth-generation
+impulse c|Impulse C|:|Hardware description languages
+mumps|MUMPS|:|Imperative, Interpreted, Procedural
+rpg|RPG|:|Compiled, Procedural
+λprolog|λProlog|:|Logic-based
+cleo|CLEO|:|Compiled
+sed|sed|:|Curly-bracket, Little, Scripting
+game maker language (gml)|Game Maker Language (GML)|:|Scripting
+cpl (combined programming language)|CPL (Combined Programming Language)|:|Procedural
+alef|Alef|:|Concurrent, Curly-bracket
+g|G|:|Dataflow, Impure Functional
+rebol |REBOL |:|Multiparadigm
+io|Io|:|Embeddable, Object-oriented prototype-based, Scripting
+ruby (via mruby)|Ruby (via mruby)|:|Embeddable
+oberon|Oberon|:|Imperative, Manual Memory Management
+swift |Swift |:|Multiparadigm
+object rexx (orexx, oorexx)|Object REXX (OREXX, OOREXX)|:|Scripting
+pure|Pure|:|Impure Functional
+supercollider|SuperCollider|:|Curly-bracket, Object-oriented class-based single dispatch
+occam|Occam|:|Off-side rule, Procedural
+tea|Tea|:|Impure Functional, Interpreted, List-based (LISPs), Object-oriented class-based single dispatch, Procedural, Scripting
+crystal|Crystal|:|Compiled, Garbage Collected
+bash|bash|:|Command-line interface
+algol 58|ALGOL 58|:|Compiled, Imperative, Procedural
+chef|Chef|:|Esoteric
+mesa|Mesa|:|Compiled, Procedural
+racket|Racket|:|Educational, Impure Functional, Garbage Collected, List-based (LISPs)
+red |Red |:|Multiparadigm
+actionscript 3.0|ActionScript 3.0|:|Object-oriented class-based single dispatch
+dbase a relational database access language|dBase a relational database access language|:|Data-orientened
+common lisp|Common Lisp|:|Compiled, Impure Functional, Interactive, Garbage Collected, List-based (LISPs), Object-oriented class-based multiple dispatch, Reflective
+max|Max|:|Dataflow, Visual
+autohotkey|AutoHotKey|:|Scripting
+alm |Alm |:|Multiparadigm
+b|B|:|Curly-bracket
+postscript|PostScript|:|Concatenative, Interactive, Interpreted, Stack-based
+solidity|Solidity|:|Curly-bracket
+roop|ROOP|:|Logic-based
+krc|KRC|:|Pure Functional
+ampl|AMPL|:|Numerical
+adobe graphics assembly language (agal)|Adobe Graphics Assembly Language (AGAL)|:|Shading Real-time
+little b|Little b|:|Impure Functional
+common |Common |:|Multiparadigm
+abc|ABC|:|Off-side rule
+lua |Lua |:|Multiparadigm
+caché objectscript |Caché ObjectScript |:|Data-orientened
+powershell|PowerShell|:|Command-line interface, Curly-bracket, Extension, Imperative, Interactive, Interpreted, Garbage Collected, Procedural, Reflective, Scripting
+pascal script|Pascal Script|:|Scripting
+lpc|LPC|:|Curly-bracket, Interpreted
+ella|ELLA|:|Hardware description languages
+bash|Bash|:|Scripting
+clipper 5.3|Clipper 5.3|:|Compiled
+dylan |Dylan |:|Multiparadigm
+zig|Zig|:|Manual Memory Management, Deterministic Memory Management
+alf|ALF|:|Logic-based
+expect|Expect|:|Command-line interface
+ipl-v|IPL-v|:|Interactive
+chuck|ChucK|:|Concurrent, Curly-bracket, Object-oriented class-based single dispatch, Reflective
+systemc|SystemC|:|Hardware description languages
+xbase|xBase|:|Declarative, Fourth-generation
+pcastl|PCASTL|:|Curly-bracket, Interpreted, Procedural, Reflective
+sh|sh|:|Command-line interface
+maple|Maple|:|Interactive, Interpreted
+gremlin|Gremlin|:|Data-orientened, Declarative
+ecl|ECL|:|Declarative
+object rexx|Object REXX|:|Object-oriented class-based single dispatch
+elixir |Elixir |:|Off-side rule
+jass|JASS|:|Scripting
+ksh|Ksh|:|Scripting
+iswim|ISWIM|:|Off-side rule
+typescript|TypeScript|:|Curly-bracket
+lolcode|LOLCODE|:|Esoteric
+sh|Sh|:|Scripting
+standard ml|Standard ML|:|Compiled
+etoys in squeak|Etoys in Squeak|:|Object-oriented prototype-based
+ateji px|Ateji PX|:|Concurrent
+charm|Charm|:|Reflective
+piet|Piet|:|Esoteric, Stack-based
+factor|Factor|:|Concatenative, Compiled, Stack-based
+dos batch language|DOS batch language|:|Command-line interface
+natural|NATURAL|:|Fourth-generation
+torquescript|TorqueScript|:|Interpreted, Scripting
+modelica|Modelica|:|Declarative
+object pascal|Object Pascal|:|Imperative, Object-oriented class-based single dispatch
+meta ii|META II|:|Metaprogramming
+jq (c and go)|jq (C and Go)|:|Embeddable
+java|Java|:|Compiled, Concurrent, Curly-bracket, Impure Functional, Imperative, Interactive, Garbage Collected, Object-oriented class-based single dispatch, Procedural, Reflective
+awk|AWK|:|Curly-bracket, Scripting, Transformation
+snap!|Snap!|:|Educational, Visual
+holyc|HolyC|:|Compiled
+little smalltalk|Little Smalltalk|:|Object-oriented class-based single dispatch, Reflective
+go|Go|:|Compiled, Concurrent, Curly-bracket, Imperative, Garbage Collected, Procedural
+modula-3|Modula-3|:|Garbage Collected, Object-oriented class-based single dispatch
+xpath|XPath|:|XML-based
+alphard|Alphard|:|Interactive
+language h|Language H|:|Procedural
+ksh|ksh|:|Command-line interface
+||:|XML-based
+chill|CHILL|:|Compiled, Imperative, Procedural
+opencl|OpenCL|:|Extension
+rapira|Rapira|:|Procedural
+autoit|AutoIt|:|Scripting
+interactive data language|Interactive Data Language|:|Array
+open programming language (opl)|Open Programming Language (OPL)|:|Imperative
+darwin information typing architecture (dita)|Darwin Information Typing Architecture (DITA)|:|Authoring
+ada |Ada |:|Multiparadigm
+javascript (aka ecmascript or jscript)|JavaScript (aka ECMAScript or JScript)|:|Embeddable
+ch|Ch|:|Embeddable, Scripting
+squirrel|Squirrel|:|Embeddable, Extension, Scripting
+c++ |C++ |:|Multiparadigm
+webmethods flow|WebMethods Flow|:|Dataflow
+clu|CLU|:|Interactive
+small machine algol like language|SMALL Machine ALGOL Like Language|:|Procedural
+x10|X10|:|Array, Object-oriented class-based single dispatch, Reflective
+stateflow|Stateflow|:|Visual
+malbolge|Malbolge|:|Esoteric
+seneca|Seneca|:|Numerical, Procedural
+coco/r |Coco/R |:|Syntax-handling
+xslt|XSLT|:|Rule-based, Transformation
+bmdfm|BMDFM|:|Dataflow
+xsl transformations|XSL Transformations|:|Declarative
+objectiv |Objectiv |:|Multiparadigm
+php|PHP|:|Curly-bracket, Embeddable, Impure Functional, Imperative, Interactive, Interactive, Interpreted, Garbage Collected, Object-oriented class-based single dispatch, Reflective
+beta |BETA |:|Multiparadigm
+cpp|cpp|:|Macro
+apl|APL|:|Array, Impure Functional, Interactive, Interpreted, Garbage Collected, Object-oriented class-based single dispatch
+ecmascript|ECMAScript|:|Reflective, Scripting
+spreadsheets |Spreadsheets |:|Multiparadigm
+jq|jq|:|Concatenative, Pure Functional, Interactive, Interpreted
+joule|Joule|:|Concurrent
+ruby|Ruby|:|Extension, Impure Functional, Hardware description languages, Imperative, Interactive, Interpreted, Garbage Collected, Metaprogramming, Object-oriented class-based single dispatch, Reflective, Scripting
+lfe|LFE|:|Impure Functional, Impure Functional
+alice|Alice|:|Compiled, Educational, Impure Functional, Garbage Collected
+hartmann pipelines|Hartmann pipelines|:|Dataflow
+source|Source|:|Impure Functional, Imperative, Interactive, Garbage Collected, List-based (LISPs), Metaprogramming, Procedural, Scripting
+delphi|Delphi|:|Compiled, Wirth
+ec|eC|:|Compiled, Curly-bracket, Partial Manual Memory Management, Metaprogramming, Object-oriented class-based single dispatch, Procedural, Reflective
+algol w|ALGOL W|:|Wirth
+zsh|zsh|:|Command-line interface
+grasshopper|Grasshopper|:|Visual
+cobra |Cobra |:|Multiparadigm
+python |Python |:|Multiparadigm, Object-oriented class-based single dispatch
+microsoft dynamics ax (x++)|Microsoft Dynamics AX (X++)|:|Procedural
+harbour|Harbour|:|Compiled, Object-oriented class-based single dispatch, Procedural, Reflective
+visual prolog|Visual Prolog|:|Compiled, Logic-based, Object-oriented class-based single dispatch
+tcl |Tcl |:|Interactive, Multiparadigm
+renderman shading language (rsl)|RenderMan Shading Language (RSL)|:|Shading Offline
+opengl shading language (glsl)|OpenGL Shading Language (GLSL)|:|Shading Real-time
+cyclone|Cyclone|:|Curly-bracket
+mofm2t|MOFM2T|:|Transformation
+smalltalk|Smalltalk|:|Compiled, Garbage Collected, Metaprogramming, Object-oriented class-based single dispatch, Reflective, Scripting
+swift|Swift|:|Compiled, Curly-bracket, Dataflow, Impure Functional, Imperative, Interactive, Optional Manual Memory Management, Automatic Reference Counting
+fortran 2003|Fortran 2003|:|Object-oriented class-based single dispatch
+jovial|JOVIAL|:|Compiled, Imperative, Procedural, Procedural
+f|F|:|Procedural
+actionscripecmascript |ActionScripECMAScript |:|Multiparadigm
+pico|Pico|:|Curly-bracket, Reflective
+cms exec|CMS EXEC|:|Command-line interface, Scripting
+c omega|C Omega|:|Concurrent, XML-based
+racket |Racket |:|Multiparadigm
+webdna|WebDNA|:|Data-orientened, Embeddable, Scripting
+inform|Inform|:|Compiled, Compiled, Declarative
+drakon|DRAKON|:|Visual
+pike|Pike|:|Curly-bracket, Extension, Interactive, Object-oriented class-based single dispatch, Procedural
+trac|TRAC|:|List-based (LISPs)
+scheme|Scheme|:|Compiled, Educational, Impure Functional, Interactive, Garbage Collected, List-based (LISPs), Metaprogramming, Reflective, Syntax-handling
+groovy|Groovy|:|Aspect-oriented, Compiled, Impure Functional, Imperative, Interactive, Interpreted, Garbage Collected, Metaprogramming, Object-oriented class-based single dispatch, Procedural, Reflective, Scripting
+scala|Scala|:|Compiled, Concurrent, Curly-bracket, Impure Functional, Interactive, Object-oriented class-based single dispatch
+claire|Claire|:|Constraint, Rule-based
+sql (only dql, not ddl, dcl, and dml)|SQL (Only DQL, not DDL, DCL, and DML)|:|Declarative
+mathematica |Mathematica |:|Educational, Interactive, Multiparadigm
+algol 60|ALGOL 60|:|Compiled, Imperative
+f-script|F-Script|:|Object-oriented class-based single dispatch, Object-oriented class-based single dispatch, Reflective, Scripting
+rebol|REBOL|:|Impure Functional, Interactive, Interpreted, Object-oriented prototype-based, Reflective, Scripting
+yorick|Yorick|:|Curly-bracket
+tads|TADS|:|Object-oriented prototype-based
+eiffel|Eiffel|:|Compiled, Concurrent, Interactive, Interpreted, Object-oriented class-based single dispatch, Procedural, Reflective
+sisal |SISAL |:|Multiparadigm
+obliq|Obliq|:|Object-oriented prototype-based
+roop |ROOP |:|Multiparadigm
+emerald|Emerald|:|Compiled, Concurrent, Educational, Garbage Collected
+vhdl-ams|VHDL-AMS|:|Hardware description languages
+component pascal|Component Pascal|:|Manual Memory Management, Procedural, Wirth
+playstation shader language (pssl)|PlayStation Shader Language (PSSL)|:|Shading Real-time
+smalltalk |Smalltalk |:|Interactive
+sablecc|SableCC|:|Syntax-handling
+jvm|JVM|:|Reflective, Scripting
+cython |Cython |:|Optional Manual Memory Management
+jcl|JCL|:|Command-line interface, Imperative, Procedural, Scripting
+pascal|Pascal|:|Compiled, Educational, Imperative, Interpreted, Manual Memory Management, Deterministic Memory Management, Procedural, Wirth
+bcpl|BCPL|:|Compiled, Curly-bracket, Procedural
+prolog|Prolog|:|Declarative, Interactive, Logic-based, Reflective, Rule-based, Syntax-handling
+clist|CLIST|:|Command-line interface, Scripting
+optimj|OptimJ|:|Extension
+sather|Sather|:|Interactive, Object-oriented class-based single dispatch
+join java|Join Java|:|Object-oriented class-based single dispatch, Procedural, Reflective, Scripting
+squeak|Squeak|:|Object-oriented class-based single dispatch, Reflective
+objective-c|Objective-C|:|Compiled, Curly-bracket, Deterministic Memory Management, Automatic Reference Counting, Object-oriented class-based single dispatch, Reflective
+ibm visualage|IBM VisualAge|:|Object-oriented class-based single dispatch, Reflective
+free pascal (fpc)|Free Pascal (FPC)|:|Procedural
+xaml|XAML|:|XML-based
+c++|C++|:|Compiled, Curly-bracket, Impure Functional, Imperative, Interactive, Manual Memory Management, Deterministic Memory Management, Metaprogramming, Object-oriented class-based single dispatch, Procedural
+visual dataflex|Visual DataFlex|:|Fourth-generation, Object-oriented class-based single dispatch
+vbscript|VBScript|:|Embeddable, Interpreted, Object-oriented class-based single dispatch, Procedural, Scripting
+lasso|Lasso|:|Authoring, Procedural, Scripting
+ant|Ant|:|Declarative, Interpreted
+ceylon |Ceylon |:|Multiparadigm
+algol 60 |ALGOL 60 |:|Procedural
+atl|ATL|:|Transformation
+futhark|Futhark|:|Pure Functional
+lua)|Lua)|:|Extension
+oriel|Oriel|:|Procedural, Scripting
+chinese basic (chinese)|Chinese BASIC (Chinese)|:|Non-English-based
+obliq modula 3 variant|Obliq Modula 3 variant|:|Wirth
+modula-2 |Modula-2 |:|Procedural
+pl/s|PL/S|:|Imperative
+tcl|Tcl|:|Embeddable, Embeddable, Extension, Impure Functional, Imperative, Interpreted, List-based (LISPs), Reflective, Scripting
+visualworks|VisualWorks|:|Object-oriented class-based single dispatch, Reflective
+constraint handling rules|Constraint Handling Rules|:|Constraint, Rule-based
+ur|Ur|:|Pure Functional
+labview|LabVIEW|:|Compiled, Concurrent, Garbage Collected, Object-oriented class-based single dispatch
+chuck |ChucK |:|Multiparadigm, Procedural
+dylan|Dylan|:|Compiled, Impure Functional, Garbage Collected, List-based (LISPs), Object-oriented class-based multiple dispatch, Reflective
+unrealscript|UnrealScript|:|Curly-bracket
+k|K|:|Array
+vim script|Vim script|:|Extension
+curry |Curry |:|Multiparadigm
+javascripjscripeiffel |JavaScripJScripEiffel |:|Multiparadigm
+lava |Lava |:|Multiparadigm
+1 |1 |:|Multiparadigm
+yass|YASS|:|Curly-bracket
+cli|CLI|:|Reflective, Scripting
+qml|QML|:|Declarative
+agora|Agora|:|Object-oriented prototype-based
+elm|Elm|:|Compiled, Pure Functional
+gambit scheme|Gambit Scheme|:|Concurrent
+julia |Julia |:|Multiparadigm
+ring |Ring |:|Multiparadigm
+eel|EEL|:|Embeddable
+scilab|Scilab|:|Array, Numerical
+ecmascript for xml|ECMAScript for XML|:|Reflective, Scripting, XML-based
+revolution|Revolution|:|Scripting
+octave|Octave|:|Array
+fexl|Fexl|:|Impure Functional
+alf |ALF |:|Multiparadigm
+delphi |Delphi |:|Multiparadigm
+actionscript|ActionScript|:|Compiled, Curly-bracket, Embeddable, Impure Functional, Imperative, Interactive, Garbage Collected, Object-oriented prototype-based, Procedural, Reflective, Scripting
+curl|Curl|:|Compiled, Impure Functional, Metaprogramming, Object-oriented class-based single dispatch, Procedural, Reflective
+prograph|Prograph|:|Dataflow, Object-oriented class-based single dispatch, Visual
+pharo|Pharo|:|Object-oriented class-based single dispatch
+curl |Curl |:|Multiparadigm
+d|D|:|Compiled, Curly-bracket, Impure Functional, Imperative, Metaprogramming, Object-oriented class-based single dispatch, Procedural
+pv-wave|PV-Wave|:|Fourth-generation
+gnu octave|GNU Octave|:|Numerical
+ada|Ada|:|Array, Aspect-oriented, Aspect-oriented, Concurrent, Imperative, Optional Manual Memory Management, Deterministic Memory Management, Procedural
+c#|C#|:|Compiled, Curly-bracket, Impure Functional, Imperative, Interactive, Garbage Collected, Object-oriented class-based single dispatch, Reflective, Scripting
+lucid|Lucid|:|Dataflow
+self |Self |:|Object-oriented prototype-based
+speakeasy|Speakeasy|:|Array, Imperative, Interactive, Interpreted, Garbage Collected, Numerical, Object-oriented class-based single dispatch
+vhdl|VHDL|:|Dataflow, Hardware description languages
+visual basic|Visual Basic|:|Compiled, Extension, Automatic Reference Counting, Procedural
+genie|Genie|:|Compiled, Off-side rule
+soufflé|Soufflé|:|Declarative, Logic-based
+mapper (unisys/sperry)|MAPPER (Unisys/Sperry)|:|Fourth-generation
+ml|ML|:|Impure Functional, Interactive, Garbage Collected
+altera hardware description language|Altera Hardware Description Language|:|Hardware description languages
+lola|Lola|:|Hardware description languages
+metal shading language (msl)|Metal Shading Language (MSL)|:|Shading Real-time
+gamemaker language|GameMaker Language|:|Interpreted
+f#|F#|:|Agent-oriented, Compiled, Impure Functional, Interactive, Metaprogramming, Off-side rule
+pl/i|PL/I|:|Compiled, Imperative, Manual Memory Management, Procedural
+mercury|Mercury|:|Compiled, Declarative, Pure Functional, Logic-based
+ubercode|Ubercode|:|Fourth-generation, Object-oriented class-based single dispatch
+beta|BETA|:|Object-oriented class-based single dispatch
+distributed application specification language (dasl)|Distributed Application Specification Language (DASL)|:|Declarative, Object-oriented class-based single dispatch
+xproc|XProc|:|Concurrent, XML-based
+netrexx|NetRexx|:|Object-oriented class-based single dispatch
+elixir|Elixir|:|Concurrent, Impure Functional, Interactive, Metaprogramming
+object pascal, delphi|Object Pascal, Delphi|:|Procedural
+ring|Ring|:|Embeddable, Extension, Impure Functional, Imperative, Interactive, Interpreted, Garbage Collected, Metaprogramming, Object-oriented class-based single dispatch, Reflective, Scripting
+modula-2, modula-3, variants|Modula-2, Modula-3, variants|:|Wirth
+livecode|LiveCode|:|Fourth-generation
+perl|Perl|:|Curly-bracket, Extension, Impure Functional, Imperative, Interactive, Interpreted, Garbage Collected, Automatic Reference Counting, Metaprogramming, Procedural, Reflective, Scripting
+rapira (russian)|Rapira (Russian)|:|Non-English-based
+limbo|Limbo|:|Curly-bracket
+python|Python|:|Concurrent, Embeddable, Extension, Impure Functional, Imperative, Interactive, Interactive, Interpreted, Garbage Collected, Metaprogramming, Off-side rule, Procedural, Reflective, Scripting
+modula-2, modula-3|Modula-2, Modula-3|:|Imperative
+s-lang|S-Lang |:|Interactive
+ezhil (tamil)|ezhil (Tamil)|:|Non-English-based

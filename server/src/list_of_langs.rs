@@ -4,68 +4,71 @@ use paste::paste;
 use std::{fs, env};
 use std::collections::HashMap;
 
-macro_rules! new_lang {
-    ($name:literal, $($lang_type:ident)*) => {
-        Lang::new($name.to_string(), vec![$(LangType::$lang_type,)*])
+macro_rules! mapped_mode {
+    ($name:literal => $enumed:ident) => {
+        
     }
 }
 
-fn mapped_mode(mode: String) -> LangType {
-    match &mode {
-        "Array:" => ,
-        "Authoring:" => ,
-        "Concatenative:" => ,
-        "Constraint:" => ,
-        "CommandLine:" => ,
-        "Compiled:" => ,
-        "Concurrent:" => ,
-        "Curly:" => ,
-        "Dataflow:" => ,
-        "DataOriented:" => ,
-        "Decision:" => ,
-        "Declarative:" => ,
-        "Embeddable:" => ,
-        "Educational:" => ,
-        "Esoteric:" => ,
-        "Extension:" => ,
-        "Fourth-gen:" => ,
-        "Functional Pure:" => ,
-        "Functional Impure:" => ,
-        "Hardware description:" => ,
-        "Imperative:" => ,
-        "Interactive:" => ,
-        "Interpreted:" => ,
-        "GC:" => ,
-        "Manual:" => ,
-        "Partial:" => ,
-        "Optional:" => ,
-        "Deterministic:" => ,
-        "RC:" => ,
-        "LISPS:" => ,
-        "Little:" => ,
-        "Logic:" => ,
-        "Macro:" => ,
-        "Metaprogramming:" => ,
-        "Multiparadign:" => ,
-        "Numerical:" => ,
-        "Non-English:" => ,
-        "OOP Class Multi:" => ,
-        "OOP Class Single:" => ,
-        "OO Prototype:" => ,
-        "Offside:" => ,
-        "Procedural:" => ,
-        "Reflective:" => ,
-        "Rule-based:" => ,
-        "Scripting:" => ,
-        "Stack:" => ,
-        "Sync:" => ,
-        "Shading Real:" => ,
-        "Shading Offline:" => ,
-        "Syntax Handling:" => ,
-        "Transformation:" => ,
-        "Visual:" => ,
-        "Wirth:" => ,
-        XML:
+fn mapped_mode(mode: &str) -> LangType {
+    match mode {
+        "Array" => LangType::Array,
+        "Agent" => LangType::Agent,
+        "Aspect:" => LangType::Aspect,
+        "Assembly:" => LangType::Assembly,
+        "Authoring:" => LangType::Authoring,
+        "Concatenative:" => LangType::Concatenative,
+        "Constraint:" => LangType::Constraint,
+        "CommandLine:" => LangType::CommandLine,
+        "Compiled:" => LangType::Compiled,
+        "Concurrent:" => LangType::Concurrent,
+        "Curly:" => LangType::Curly,
+        "Dataflow:" => LangType::Dataflow,
+        "DataOriented:" => LangType::Data,
+        "Decision:" => LangType::Decision,
+        "Declarative:" => LangType::Declarative,
+        "Embeddable:" => LangType::Embeddable,
+        "Educational:" => LangType::Educational,
+        "Esoteric:" => LangType::Esoteric,
+        "Extension:" => LangType::Extension,
+        "Fourth-gen:" => LangType::FourthGen,
+        "Functional Pure:" => LangType::PureFunctional,
+        "Functional Impure:" => LangType::ImpureFunctional,
+        "Hardware description:" => LangType::Hardware,
+        "Imperative:" => LangType::Imperative,
+        "Interactive:" => LangType::Interactive,
+        "Interpreted:" => LangType::Interpreted,
+        "GC:" => LangType::GarbageCollected,
+        "Manual:" => LangType::ManualMemory,
+        "Partial:" => LangType::PartialManual,
+        "Optional:" => LangType::OptionalManual,
+        "Deterministic:" => LangType::DeterministicManual,
+        "RC:" => LangType::RcMemory,
+        "LISPS:" => LangType::List,
+        "Little:" => LangType::Little,
+        "Logic:" => LangType::Logic,
+        "Macro:" => LangType::Macro,
+        "Metaprogramming:" => LangType::Meta,
+        "Multiparadign:" => LangType::Multi,
+        "Numerical:" => LangType::Numerical,
+        "Non-English:" => LangType::NonEnglish,
+        "OOP Class Multi:" => LangType::OOClassMultiple,
+        "OOP Class Single:" => LangType::OOClassSingle,
+        "OO Prototype:" => LangType::OOPrototype,
+        "Offside:" => LangType::Offside,
+        "Procedural:" => LangType::Procedural,
+        "Reflective:" => LangType::Reflective,
+        "Rule-based:" => LangType::RuleBased,
+        "Scripting:" => LangType::Scripting,
+        "Stack:" => LangType::StackBased,
+        "Sync:" => LangType::Sync,
+        "Shading Real:" => LangType::ShadingReal,
+        "Shading Offline:" => LangType::ShadingOffline,
+        "Syntax Handling:" => LangType::Syntax,
+        "Transformation:" => LangType::Transformation,
+        "Visual:" => LangType::Visual,
+        "Wirth:" => LangType::Wirth,
+        "XML:" => LangType::XMLBased,
         _ => todo!(),
     }
 }
@@ -73,38 +76,40 @@ fn mapped_mode(mode: String) -> LangType {
 lazy_static! {
     pub static ref LANGS: Vec<Lang> = {
         // Gotta get every lang and their categories
-        let contents = fs::read_to_string("data.txt").unwrap().split('\n').map(|x| -> String { x.into() }).collect::<Vec<String>>();
-        // What category are we in?
-        let mut current_mode = String::new();
-        // What we're gonna turn into the Lang at the end
-        // let mut hashed = HashMap::new();
+        let contents = fs::read_to_string("data2.txt").unwrap().split('\n').map(|x| -> String { x.into() }).collect::<Vec<String>>();
+        let mut vec = vec![];
 
         for name in contents {
-            if name.chars().last().unwrap() == ':' {
-                current_mode = name.clone();
-                println!("{name}");
+            let splitted = name.split("|:|").collect::<Vec<&str>>();
+            if splitted[0] == "" {
                 continue;
             }
+            let names = splitted[0].split("|").collect::<Vec<&str>>();
+            let categories = splitted[1].split(", ").map(|x| x.inverse_display()).collect::<Vec<LangType>>();
 
-            // let _ = hashed.entry(&name).or_insert(vec![]);
-            // let mut entry = hashed.get(&name).unwrap();
-            // hashed.insert(&name, )
+            vec.push(Lang {
+                name: names[0].to_string(),
+                display: names[1].to_string(),
+                types: categories,
+            })
         }
 
-        vec![]
+        vec
     };
 }
 
-#[derive(Debug)]
+#[derive(Debug, Clone)]
 pub struct Lang {
-    name: String,
-    types: Vec<LangType>
+    pub name: String,
+    pub display: String,
+    pub types: Vec<LangType>
 }
 
 impl Lang {
     fn new(name: String, types: Vec<LangType>) -> Self {
         Self {
-            name,
+            name: name.to_lowercase(),
+            display: name,
             types
         }
     }
@@ -112,6 +117,7 @@ impl Lang {
 
 macro_rules! define_type {
     ($($field_name:ident => $debug_name:literal),*) => {
+        #[derive(Clone)]
         pub enum LangType {
             $(
                 $field_name,
@@ -136,6 +142,31 @@ macro_rules! define_type {
                 })
             }
         }
+
+        pub trait LangTypeInverseDisplay<T> {
+            fn inverse_display(&self) -> T;
+        }
+        
+        impl LangTypeInverseDisplay<LangType> for String {
+            fn inverse_display(&self) -> LangType {
+                match self.as_str() {
+                    $(
+                        $debug_name => LangType::$field_name,
+                    )*
+                    _ => unreachable!()
+                }
+            }
+        }
+        impl LangTypeInverseDisplay<LangType> for &str {
+            fn inverse_display(&self) -> LangType {
+                match *self {
+                    $(
+                        $debug_name => LangType::$field_name,
+                    )*
+                    _ => unreachable!(),
+                }
+            }
+        }
     }
 }
 
@@ -144,11 +175,13 @@ define_type! {
     Array => "Array",
     Agent => "Agent-oriented",
     Aspect => "Aspect-oriented",
+    Assembly => "Assembly",
     Authoring => "Authoring",
     Concatenative => "Concatenative",
     Constraint => "Constraint",
     CommandLine => "Command-line interface",
     Compiled => "Compiled",
+    Concurrent => "Concurrent",
     Curly => "Curly-bracket",
     Dataflow => "Dataflow",
     Data => "Data-orientened",
@@ -159,7 +192,6 @@ define_type! {
     Esoteric => "Esoteric",
     Extension => "Extension",
     FourthGen => "Fourth-generation",
-    Functional => "Functional",
     PureFunctional => "Pure Functional",
     ImpureFunctional => "Impure Functional",
     Hardware => "Hardware description languages",
@@ -175,7 +207,7 @@ define_type! {
     RcMemory => "Automatic Reference Counting",
     List => "List-based (LISPs)",
     Little => "Little",
-    Logig => "Logic-based",
+    Logic => "Logic-based",
     Macro => "Macro",
     Meta => "Metaprogramming",
     Multi => "Multiparadigm",
@@ -186,7 +218,6 @@ define_type! {
     OOPrototype => "Object-oriented prototype-based",
     Offside => "Off-side rule",
     Procedural => "Procedural",
-    Query => "Query",
     Reflective => "Reflective",
     RuleBased => "Rule-based",
     Scripting => "Scripting",

@@ -13,7 +13,10 @@ async fn echo(req_body: String) -> impl Responder {
 
 #[actix_web::main]
 async fn main() -> std::io::Result<()> {
-    println!("{:?}", *LANGS);
+    for x in &*LANGS {
+        let formatted = format!("{:?}", x.types).replace("[", "").replace("]", "");
+        println!("{}|{}|:|{}", x.name, x.display, formatted);
+    }
     
     HttpServer::new(|| {
         App::new()
