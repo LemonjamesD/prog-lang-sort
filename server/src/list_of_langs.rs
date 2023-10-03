@@ -1,76 +1,87 @@
 use lazy_static::lazy_static;
 use paste::paste;
+use serde_derive::{Serialize, Deserialize};
+use serde_with::serde_as;
+use serde_with::SerializeDisplay;
 
+use std::fmt::Display;
 use std::{fs, env};
 use std::collections::HashMap;
 
 macro_rules! mapped_mode {
-    ($name:literal => $enumed:ident) => {
-        
+    ($($name:literal => $enumed:ident),*) => {
+        paste! {
+            $(const [<$enumed:upper>]: &'static str = $name;)*
+            fn mapped_mode(mode: &str) -> LangType {
+                match mode {
+                    $(
+                        [<$enumed:upper>] => LangType::$enumed,
+                    )*
+                    _ => unreachable!(),
+                }
+            }
+        }
     }
 }
 
-fn mapped_mode(mode: &str) -> LangType {
-    match mode {
-        "Array" => LangType::Array,
-        "Agent" => LangType::Agent,
-        "Aspect:" => LangType::Aspect,
-        "Assembly:" => LangType::Assembly,
-        "Authoring:" => LangType::Authoring,
-        "Concatenative:" => LangType::Concatenative,
-        "Constraint:" => LangType::Constraint,
-        "CommandLine:" => LangType::CommandLine,
-        "Compiled:" => LangType::Compiled,
-        "Concurrent:" => LangType::Concurrent,
-        "Curly:" => LangType::Curly,
-        "Dataflow:" => LangType::Dataflow,
-        "DataOriented:" => LangType::Data,
-        "Decision:" => LangType::Decision,
-        "Declarative:" => LangType::Declarative,
-        "Embeddable:" => LangType::Embeddable,
-        "Educational:" => LangType::Educational,
-        "Esoteric:" => LangType::Esoteric,
-        "Extension:" => LangType::Extension,
-        "Fourth-gen:" => LangType::FourthGen,
-        "Functional Pure:" => LangType::PureFunctional,
-        "Functional Impure:" => LangType::ImpureFunctional,
-        "Hardware description:" => LangType::Hardware,
-        "Imperative:" => LangType::Imperative,
-        "Interactive:" => LangType::Interactive,
-        "Interpreted:" => LangType::Interpreted,
-        "GC:" => LangType::GarbageCollected,
-        "Manual:" => LangType::ManualMemory,
-        "Partial:" => LangType::PartialManual,
-        "Optional:" => LangType::OptionalManual,
-        "Deterministic:" => LangType::DeterministicManual,
-        "RC:" => LangType::RcMemory,
-        "LISPS:" => LangType::List,
-        "Little:" => LangType::Little,
-        "Logic:" => LangType::Logic,
-        "Macro:" => LangType::Macro,
-        "Metaprogramming:" => LangType::Meta,
-        "Multiparadign:" => LangType::Multi,
-        "Numerical:" => LangType::Numerical,
-        "Non-English:" => LangType::NonEnglish,
-        "OOP Class Multi:" => LangType::OOClassMultiple,
-        "OOP Class Single:" => LangType::OOClassSingle,
-        "OO Prototype:" => LangType::OOPrototype,
-        "Offside:" => LangType::Offside,
-        "Procedural:" => LangType::Procedural,
-        "Reflective:" => LangType::Reflective,
-        "Rule-based:" => LangType::RuleBased,
-        "Scripting:" => LangType::Scripting,
-        "Stack:" => LangType::StackBased,
-        "Sync:" => LangType::Sync,
-        "Shading Real:" => LangType::ShadingReal,
-        "Shading Offline:" => LangType::ShadingOffline,
-        "Syntax Handling:" => LangType::Syntax,
-        "Transformation:" => LangType::Transformation,
-        "Visual:" => LangType::Visual,
-        "Wirth:" => LangType::Wirth,
-        "XML:" => LangType::XMLBased,
-        _ => todo!(),
-    }
+mapped_mode! {
+    "Array" => Array,
+    "Agent" => Agent,
+    "Aspect:" => Aspect,
+    "Assembly:" => Assembly,
+    "Authoring:" => Authoring,
+    "Concatenative:" => Concatenative,
+    "Constraint:" => Constraint,
+    "CommandLine:" => CommandLine,
+    "Compiled:" => Compiled,
+    "Concurrent:" => Concurrent,
+    "Curly:" => Curly,
+    "Dataflow:" => Dataflow,
+    "DataOriented:" => Data,
+    "Decision:" => Decision,
+    "Declarative:" => Declarative,
+    "Embeddable:" => Embeddable,
+    "Educational:" => Educational,
+    "Esoteric:" => Esoteric,
+    "Extension:" => Extension,
+    "Fourth-gen:" => FourthGen,
+    "Functional Pure:" => PureFunctional,
+    "Functional Impure:" => ImpureFunctional,
+    "Hardware description:" => Hardware,
+    "Imperative:" => Imperative,
+    "Interactive:" => Interactive,
+    "Interpreted:" => Interpreted,
+    "GC:" => GarbageCollected,
+    "Manual:" => ManualMemory,
+    "Partial:" => PartialManual,
+    "Optional:" => OptionalManual,
+    "Deterministic:" => DeterministicManual,
+    "RC:" => RcMemory,
+    "LISPS:" => List,
+    "Little:" => Little,
+    "Logic:" => Logic,
+    "Macro:" => Macro,
+    "Metaprogramming:" => Meta,
+    "Multiparadign:" => Multi,
+    "Numerical:" => Numerical,
+    "Non-English:" => NonEnglish,
+    "OOP Class Multi:" => OOClassMultiple,
+    "OOP Class Single:" => OOClassSingle,
+    "OO Prototype:" => OOPrototype,
+    "Offside:" => Offside,
+    "Procedural:" => Procedural,
+    "Reflective:" => Reflective,
+    "Rule-based:" => RuleBased,
+    "Scripting:" => Scripting,
+    "Stack:" => StackBased,
+    "Sync:" => Sync,
+    "Shading Real:" => ShadingReal,
+    "Shading Offline:" => ShadingOffline,
+    "Syntax Handling:" => Syntax,
+    "Transformation:" => Transformation,
+    "Visual:" => Visual,
+    "Wirth:" => Wirth,
+    "XML:" => XMLBased
 }
 
 lazy_static! {
@@ -96,9 +107,12 @@ lazy_static! {
 
         vec
     };
+    pub static ref SERIALIZED_LANGS: String = {
+        serde_json::to_string(&*LANGS).unwrap()
+    };
 }
 
-#[derive(Debug, Clone)]
+#[derive(Debug, Clone, Serialize, Deserialize)]
 pub struct Lang {
     pub name: String,
     pub display: String,
@@ -117,7 +131,8 @@ impl Lang {
 
 macro_rules! define_type {
     ($($field_name:ident => $debug_name:literal),*) => {
-        #[derive(Clone)]
+        #[serde_as]
+        #[derive(Clone, SerializeDisplay, Deserialize)]
         pub enum LangType {
             $(
                 $field_name,

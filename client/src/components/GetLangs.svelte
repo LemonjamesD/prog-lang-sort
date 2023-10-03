@@ -1,23 +1,60 @@
 <script lang="ts">
+import ColoredBox from "./ColoredBox.svelte";
+import { pastel_color } from "../shared_functions.ts";
 
-function send_get() {
-    const url: String = "http://localhost:8080/echo";
-    const data: JSON = {
-      "data": "Hello, World!"
-    };
-
-    var http_req: XMLHttpRequest = new XMLHttpRequest();
-    http_req.onreadystatechange = () => { 
-        if (http_req.readyState == 4 && http_req.status == 200)
-            console.log(http_req.response);
-        else if (http_req.readState == 4)
-            console.log("Could not fetch the data");
-    }
-    http_req.open("POST", url);
-    http_req.send(JSON.stringify(data));
-    console.log(http_req);
-}
-
+export let langs: Promise<JSON[]>;
 </script>
 
-<input on:click={send_get} type="button" value="Button"/>
+<div>
+    {#await langs}
+        Loading....
+    {:then langs}
+        <!-- There's probably a better way to do this --> 
+        {#each langs as lang}
+            <ColoredBox className="lang" --background-color={pastel_color()}>
+                <p> {lang.display} ({lang.name}) </p>
+                <div>
+                    {#each lang.types as type}
+                        <ColoredBox className="category" --background-color={pastel_color()}>
+                            {type}
+                        </ColoredBox>
+                    {/each}
+                </div>
+            </ColoredBox>
+        {/each}
+    {:catch error}
+        System error: {error.message}
+    {/await}
+</div>
+
+<style>
+:global(.category) {
+    border-radius: 10px;
+    margin: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 3px;
+    padding-bottom: 3px;
+    border: 3px;
+    border-style: solid;
+    border-color: #9faabd;
+    text-wrap: balance;
+    inline-size: max-content;
+    display: inline-block;
+    
+    box-shadow: 5px 5px;
+}
+:global(.lang) {
+    color: #575757;
+    border-radius: 10px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 4px;
+    padding-bottom: 6px;
+    margin: 10px;
+    box-shadow: 5px 5px;
+
+    inline-size: max-content;
+    display: inline-block;
+}
+</style>

@@ -38,7 +38,6 @@ bluespec|Bluespec|:|Hardware description languages
 apl |APL |:|Multiparadigm
 oz |Oz |:|Multiparadigm
 gams|GAMS|:|Numerical
-javascript |JavaScript |:|Procedural, Scripting
 nxt-g|NXT-G|:|Visual
 eclipse|ECLiPSe|:|Constraint
 seed7 |Seed7 |:|Multiparadigm
@@ -177,7 +176,7 @@ s-lang|S-Lang|:|Array, Curly-bracket, Extension, Interpreted, Procedural, Script
 gosu|Gosu|:|Compiled
 limbdo|Limbdo|:|Concurrent
 cal|CAL|:|Extension, Impure Functional
-javascript|JavaScript|:|Curly-bracket, Extension, Impure Functional, Imperative, Interactive, Interpreted, Garbage Collected, Object-oriented prototype-based, Reflective
+javascript|JavaScript|:|Curly-bracket, Extension, Impure Functional, Imperative, Interactive, Interpreted, Garbage Collected, Object-oriented prototype-based, Reflective, Procedural, Scripting, Embeddable
 rpl|RPL|:|Stack-based
 fabrik|Fabrik|:|Visual
 orwell|Orwell|:|Off-side rule
@@ -204,7 +203,7 @@ raku|Raku|:|Impure Functional
 metaobject |Metaobject |:|Multiparadigm
 sarl|SARL|:|Agent-oriented
 vvvv|Vvvv|:|Dataflow, Visual
-1c:enterprise programming language|1C:Enterprise programming language|:|Fourth-generation, Object-oriented prototype-based
+1c:enterprise programming language|1C:Enterprise programming language|:|Fourth-generation, Object-oriented prototype-based, Multiparadigm
 4dos|4DOS|:|Command-line interface
 goal|GOAL|:|Agent-oriented
 intercal|INTERCAL|:|Esoteric
@@ -233,7 +232,6 @@ game maker language|Game Maker Language|:|Object-oriented class-based single dis
 myhdl|MyHDL|:|Hardware description languages
 angelscript|AngelScript|:|Embeddable, Scripting
 fril|Fril|:|Interactive, Logic-based
-ecmascript |ECMAScript |:|Multiparadigm
 rust[22]|Rust[22]|:|Metaprogramming
 xod|XOD|:|Visual
 spreadsheets|Spreadsheets|:|Impure Functional, Visual
@@ -422,7 +420,6 @@ xpath|XPath|:|XML-based
 alphard|Alphard|:|Interactive
 language h|Language H|:|Procedural
 ksh|ksh|:|Command-line interface
-||:|XML-based
 chill|CHILL|:|Compiled, Imperative, Procedural
 opencl|OpenCL|:|Extension
 rapira|Rapira|:|Procedural
@@ -431,7 +428,6 @@ interactive data language|Interactive Data Language|:|Array
 open programming language (opl)|Open Programming Language (OPL)|:|Imperative
 darwin information typing architecture (dita)|Darwin Information Typing Architecture (DITA)|:|Authoring
 ada |Ada |:|Multiparadigm
-javascript (aka ecmascript or jscript)|JavaScript (aka ECMAScript or JScript)|:|Embeddable
 ch|Ch|:|Embeddable, Scripting
 squirrel|Squirrel|:|Embeddable, Extension, Scripting
 c++ |C++ |:|Multiparadigm
@@ -451,7 +447,7 @@ php|PHP|:|Curly-bracket, Embeddable, Impure Functional, Imperative, Interactive,
 beta |BETA |:|Multiparadigm
 cpp|cpp|:|Macro
 apl|APL|:|Array, Impure Functional, Interactive, Interpreted, Garbage Collected, Object-oriented class-based single dispatch
-ecmascript|ECMAScript|:|Reflective, Scripting
+ecmascript|ECMAScript|:|Reflective, Scripting, Multiparadigm
 spreadsheets |Spreadsheets |:|Multiparadigm
 jq|jq|:|Concatenative, Pure Functional, Interactive, Interpreted
 joule|Joule|:|Concurrent
@@ -552,9 +548,7 @@ unrealscript|UnrealScript|:|Curly-bracket
 k|K|:|Array
 vim script|Vim script|:|Extension
 curry |Curry |:|Multiparadigm
-javascripjscripeiffel |JavaScripJScripEiffel |:|Multiparadigm
 lava |Lava |:|Multiparadigm
-1 |1 |:|Multiparadigm
 yass|YASS|:|Curly-bracket
 cli|CLI|:|Reflective, Scripting
 qml|QML|:|Declarative
