@@ -5,7 +5,12 @@ import { createEventDispatcher } from 'svelte';
 
 const dispatch = createEventDispatcher();
 
-async function search() {
+async function search_name() {
+    if (value == "") {
+        refresh_langs(all_langs);
+        return;
+    }
+
     const awaited_langs: JSON[] = await all_langs;
     const fuse = new Fuse(awaited_langs, {
         keys: ["display"]
@@ -17,4 +22,4 @@ async function search() {
 let value;
 </script>
 
-<input on:input = {search} bind:value={value} placeholder="Type here to search..."/>
+<input on:input = {search_name} bind:value={value} placeholder="Type here to search..."/>

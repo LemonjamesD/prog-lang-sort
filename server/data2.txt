@@ -35,7 +35,7 @@ simula|Simula|:|Compiled, Object-oriented class-based single dispatch
 lisp|Lisp|:|Impure Functional, Interpreted, Garbage Collected, List-based (LISPs), Metaprogramming, Reflective, Syntax-handling
 advanced boolean expression language|Advanced Boolean Expression Language|:|Hardware description languages
 bluespec|Bluespec|:|Hardware description languages
-apl |APL |:|Multiparadigm
+address programming language|APL|:|Multiparadigm
 oz |Oz |:|Multiparadigm
 gams|GAMS|:|Numerical
 nxt-g|NXT-G|:|Visual
@@ -446,7 +446,7 @@ objectiv |Objectiv |:|Multiparadigm
 php|PHP|:|Curly-bracket, Embeddable, Impure Functional, Imperative, Interactive, Interactive, Interpreted, Garbage Collected, Object-oriented class-based single dispatch, Reflective
 beta |BETA |:|Multiparadigm
 cpp|cpp|:|Macro
-apl|APL|:|Array, Impure Functional, Interactive, Interpreted, Garbage Collected, Object-oriented class-based single dispatch
+a programming language|APL|:|Array, Impure Functional, Interactive, Interpreted, Garbage Collected, Object-oriented class-based single dispatch
 ecmascript|ECMAScript|:|Reflective, Scripting, Multiparadigm
 spreadsheets |Spreadsheets |:|Multiparadigm
 jq|jq|:|Concatenative, Pure Functional, Interactive, Interpreted

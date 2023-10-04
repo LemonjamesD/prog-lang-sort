@@ -1,5 +1,6 @@
 <script lang="ts">
 import ColoredBox from "./ColoredBox.svelte";
+import ColoredText from "./ColoredText.svelte";
 import { pastel_color } from "../shared_functions.ts";
 
 export let langs: Promise<JSON[]>;
@@ -12,14 +13,14 @@ export let langs: Promise<JSON[]>;
         <!-- There's probably a better way to do this --> 
         {#each langs as lang}
             <ColoredBox className="lang" --background-color={pastel_color()}>
-                <p> {lang.display} ({lang.name}) </p>
-                <div>
-                    {#each lang.types as type}
-                        <ColoredBox className="category" --background-color={pastel_color()}>
-                            {type}
-                        </ColoredBox>
-                    {/each}
-                </div>
+                <p> {lang.display} 
+                    {#if lang.display.toLowerCase() != lang.name.toLowerCase()}
+                        ({lang.name})
+                    {/if} 
+                </p>
+                {#each lang.types as type}
+                    <ColoredText className="category">{type}</ColoredText>
+                {/each}
             </ColoredBox>
         {/each}
     {:catch error}
@@ -28,31 +29,30 @@ export let langs: Promise<JSON[]>;
 </div>
 
 <style>
+@import url('https://fonts.cdnfonts.com/css/handwritingcr');
 :global(.category) {
-    border-radius: 10px;
-    margin: 5px;
-    padding-left: 10px;
-    padding-right: 10px;
-    padding-top: 3px;
-    padding-bottom: 3px;
-    border: 3px;
-    border-style: solid;
-    border-color: #9faabd;
-    text-wrap: balance;
     inline-size: max-content;
+    overflow-wrap: anywhere;
     display: inline-block;
-    
-    box-shadow: 5px 5px;
+    margin: 2px;
+    -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: black;
 }
 :global(.lang) {
+    aspect-ratio: 1;
+    font-family: "HandwritingCR", sans-serif;
+    font-weight: bolder;
     color: #575757;
-    border-radius: 10px;
     padding-left: 10px;
     padding-right: 10px;
     padding-top: 4px;
     padding-bottom: 6px;
     margin: 10px;
     box-shadow: 5px 5px;
+    background-size: cover;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/018/760/469/original/crumpled-paper-texture-png.png");
+
+    max-width: 50vw;
 
     inline-size: max-content;
     display: inline-block;

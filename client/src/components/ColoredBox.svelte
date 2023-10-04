@@ -9,5 +9,6 @@ export let className = "";
 <style>
 div {
     background-color: var(--background-color, #FFFFFF);
+    rotation: val(--rotation, 0);
 }
 </style>
